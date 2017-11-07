@@ -11,7 +11,7 @@ RUN mkdir /home/Nginx \
     gnupg1 \
     gnupg2
 
-#Download the Nginx repository signing key
+#Download the Nginx repository signing key 
 RUN wget http://nginx.org/keys/nginx_signing.key
 
 #Add the Nginx signing key to a system
