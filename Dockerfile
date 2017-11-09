@@ -29,3 +29,5 @@ EXPOSE 80
 #Start the Nginx service after the installation
 #RUN systemd start nginx.service
 CMD ["nginx", "-g", "daemon off;"]
+
+#update some text
